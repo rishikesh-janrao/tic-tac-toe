@@ -1,0 +1,5 @@
+{
+  "game_title": "Tic Tac Toe",
+  "winner_text": "Congratulations! You have won the game.",
+  "looser_text": "Oops! You have lost the game."
+}

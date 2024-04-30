@@ -1,9 +1,11 @@
 import "./App.css";
+import useTranslations from "./hooks/useTranslations";
 
 function App() {
+  const { t } = useTranslations();
   return (
-    <div className="board">
-      <h2>Tic Tac Toe</h2>
+    <div className="container">
+      <h2>{t("game_title")}</h2>
     </div>
   );
 }
